@@ -1,0 +1,22 @@
+#greet {
+	display: block;
+	height: 50px;
+	width: 400px;
+	background: #34696f;
+  background-color: white;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	margin-left: 22em;
+}
+h1{
+	background-image: url('/home/bootcamp/projects/greetings/hello.jpg');
+	font-size: 100px;
+	text-align: center;
+}
+button {
+	position: relative;
+	left:36em;
+	background-size: auto;
+}
