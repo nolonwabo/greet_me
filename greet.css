@@ -20,3 +20,14 @@ button {
 	left:36em;
 	background-size: auto;
 }
+body{
+	background-color: pink;
+}
+.radiobtn{
+	font-size: 30px;
+	font-style: oblique;
+	}
+#greeting{
+	font-size: 60px;
+	font-style: italic;
+}

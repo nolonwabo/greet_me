@@ -7,11 +7,22 @@
     <link rel="stylesheet" href="greet.css">
     <h1>Greeting</h1>
   <body>
-    <input type="text" id="greet"placeholder="Please type your name"></input>
-<button type ="button" onclick ="Hellofunction()"> <img src="submit.jpg" id="submit"> </button>
-  <p id="greeting"></p>
 
+    <input type="text" id="greet" placeholder="please type your name"></input>
+
+      <button type ="button" class="helloButton"> <img src="submit.jpg" id="submit"> </button>
+
+  <div class='radiobtn'>
+  <input type="radio" name="language" value="english">English
+  <input type="radio" name="language" value="afrikaans">Afrikaans
+  <input type="radio" name="language" value="isixhosa">Isixhosa
+</div>
+<p id="greeting"></p>
+Number of greets : <p id="count"></p>
+<button type ="reset" id="resetbtn" value="Reset">Reset</button>
+<p id "count"></p>
     <script src="greet.js">
     </script>
+
   </body>
 </html>
