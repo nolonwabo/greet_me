@@ -1,6 +1,6 @@
 var count= 0;
 var counter= localStorage.getItem('count', count);
-var namesGreeted= {};
+var namesGreeted= [];
 for(i =0; i<namesGreeted.length; i++){
 
 }
@@ -10,11 +10,12 @@ var resetbotn=document.getElementById('resetbtn')
 var helloButton = document.querySelector('.helloButton');
 
 function helloFunction(){
+  namesGreeted.push();
     var greetButton = document.getElementById("greet").value;
     var language = document.getElementsByName("language")
 
     if(language[0].checked && greetButton.length > 0 && namesGreeted[i] ===undefined) {
-namesGreeted[i]=1;
+namesGreeted[i]++;
         document.getElementById("greeting").innerHTML= 'Hello, '+ greetButton;
         document.getElementById('greet').value='';
         count++;
@@ -28,7 +29,7 @@ namesGreeted[i]=1;
     }
     else if(language[1].checked && greetButton.length > 0 && namesGreeted[i]
       ===undefined) {
-        namesGreeted[i]=1;
+        namesGreeted[i]++;
         //alert('Name already greeted in one of the languages, please type in a different name, but please find your greeting at the bottom.');
         document.getElementById("greeting").innerHTML= 'Hallo, '+ greetButton;
         document.getElementById('greet').value='';
