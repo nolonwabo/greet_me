@@ -12,7 +12,7 @@ var helloButton = document.querySelector('.helloButton');
 function helloFunction(){
   namesGreeted.push();
     var greetButton = document.getElementById("greet").value;
-    var language = document.getElementsByName("language")
+    var language = document.getElementsByName("language");
 
     if(language[0].checked && greetButton.length > 0 && namesGreeted[i] ===undefined) {
 namesGreeted[i]++;
