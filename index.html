@@ -10,20 +10,25 @@
 
     <input type="text" id="greet" placeholder="please type your name"></input>
 
-      <button type ="button" class="helloButton"> <img src="submit.jpg" id="submit"> </button>
+      <button type ="button" class="helloButton" onclick="hello()"> <img src="submit.jpg" id="submit"> </button>
 
   <div class='radiobtn'>
-  <input type="radio" name="language" value="Hello">English
-  <input type="radio" name="language" value="Hallo">Afrikaans
-  <input type="radio" name="language" value="Molo">Isixhosa
+  <input id='English' type="radio" name="language" value="Hello">English
+  <input id='Afrikaans' type="radio" name="language" value="Hallo">Afrikaans
+  <input id='Isixhosa' type="radio" name="language" value="Molo">Isixhosa
 </div>
 <p id="greeting"></p>
 Number of greets : <p id="count"></p>
 <button type ="reset" id="resetbtn" value="Reset">Reset</button>
-<p id "count"></p>
+<p id="count"></p>
+<script src='test/function/localStorage.js'></script>
+<script src='test/function/resetButton.js'></script>
+    <script src='test/function/greetCount.js'> </script>
+    <script src='test/function/RadioButton.js'> </script>
+    <script src='./test/function/GreetingName.js'> </script>
+    <script src="main.js"></script>
 
-    <script src="greet.js">
-    </script>
+
 
   </body>
 </html>

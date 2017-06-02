@@ -1,8 +1,5 @@
 var namesGreeted = [];
-var count = 0;
-
 function countNames(name) {
-
   var isInList = false;
 
 
@@ -14,7 +11,9 @@ function countNames(name) {
 
   if (!isInList) {
     namesGreeted.push(name);
+    var counter = clickCounter();
+    console.log(counter);
   }
 
-  return namesGreeted.length;
+  return counter;
 }
